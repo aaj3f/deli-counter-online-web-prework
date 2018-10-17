@@ -7,3 +7,5 @@ def line(array)
       string << "#{index + 1}. #{name} "
     end
     puts string
+  end
+end
