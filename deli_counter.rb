@@ -9,3 +9,8 @@ def line(array)
     puts string
   end
 end
+
+def take_a_number(array, name)
+  array << name
+  puts "Welcome, #{name}. You are number #{array.size} in line."
+end
